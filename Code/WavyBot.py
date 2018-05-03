@@ -4,7 +4,6 @@ import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
-import time
 if not discord.opus.is_loaded():
 	discord.opus.load_opus('opus')
 
