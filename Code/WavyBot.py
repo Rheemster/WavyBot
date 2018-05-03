@@ -65,4 +65,4 @@ async def on_message(message):
 		await client.send_message(message.channel, message.author.nick + ":   " + finalMessage)
 		await client.delete_message(message)
 
-client.run("NDEyNzI5OTEzOTEzNjM4OTIy.DWaM2A.kqetT1GJLaUwxcO1QKzJwLE2NFE")
+client.run("BOT KEY")
