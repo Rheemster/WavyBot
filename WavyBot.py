@@ -39,8 +39,11 @@ async def on_message(message):
 	command = message.content.lower()
 
 	aestheticMessage = message.content.split("&")
-
-	if command.startswith("&help"):
+	
+	if message.channel == 434172182193504268:
+		await client.delete_message(message)
+	
+	elif command.startswith("&help"):
 		script = open("Scripts/Help.txt", "r")
 		await client.send_message(message.channel,script.read())
 		script.close()
