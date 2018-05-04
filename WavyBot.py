@@ -28,7 +28,7 @@ async def on_member_update(before, after):
 	global changed
 	
 	#Prevent loops in changing nicknames
-	if !(changed):
+	if not(changed):
 		await client.change_nickname(after, tl.fullwidth(after.nick))
 		changed = True
 	else:
