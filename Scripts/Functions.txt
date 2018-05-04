@@ -1,19 +1,19 @@
 ```diff
--Here's what I can currently do:
+－Ｈｅｒｅ＇ｓ　ｗｈａｔ　Ｉ　ｃａｎ　ｃｕｒｒｅｎｔｌｙ　ｄｏ：
 ```
 ```yaml
 &help ``````diff
--Learn how to navigate this servers' different bots!```
+－Ｌｅａｒｎ　ｈｏｗ　ｔｏ　ｎａｖｉｇａｔｅ　ｔｈｉｓ　ｓｅｒｖｅｒｓ＇　ｄｉｆｆｅｒｅｎｔ　ｂｏｔｓ！```
 ```yaml
 &wavy (message)``````diff
--Make the following message WAVIER!```
+－Ｍａｋｅ　ｔｈｅ　ｆｏｌｌｏｗｉｎｇ　ｍｅｓｓａｇｅ　ＷＡＶＩＥＲ！```
 ```yaml
 &functions``````diff
--View what I can do!
+－Ｖｉｅｗ　ｗｈａｔ　Ｉ　ｃａｎ　ｄｏ！
 ```
 ```yaml
 &...&``````diff
--You can add & around any part of your message to make only the included words WAVIER!
+－Ｙｏｕ　ｃａｎ　ａｄｄ　＆　ａｒｏｕｎｄ　ａｎｙ　ｐａｒｔ　ｏｆ　ｙｏｕｒ　ｍｅｓｓａｇｅ　ｔｏ　ｍａｋｅ　ｏｎｌｙ　ｔｈｅ　ｉｎｃｌｕｄｅｄ　ｗｏｒｄｓ　ＷＡＶＩＥＲ！
 ```
 ```yaml
 &brianfact``````diff
