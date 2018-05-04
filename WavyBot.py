@@ -49,7 +49,7 @@ async def on_message(message):
 		facts = str(scripts.read()).splitlines()
 		script.close()
 		factIndex = int(random(len(facts)))
-		await client.send_message(message.channel,facts[factIndex])
+		await client.send_message(message.channel,message.author.nick + ":   " + tl.fullwidth(facts[factIndex]))
 	
 	elif command.startswith("&help"):
 		script = open("Scripts/Help.txt", "r")
