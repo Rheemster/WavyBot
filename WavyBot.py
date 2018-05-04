@@ -40,7 +40,7 @@ async def on_message(message):
 
 	aestheticMessage = message.content.split("&")
 	
-	if message.channel == 434172182193504268:
+	if message.channel == "434172182193504268":
 		await client.delete_message(message)
 	
 	elif command.startswith("&help"):
