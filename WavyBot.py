@@ -48,7 +48,7 @@ async def on_message(message):
 		script = open("Scripts/BrianFacts.txt", "r")
 		facts = str(script.read()).splitlines()
 		script.close()
-		factIndex = int(random(len(facts)))
+		factIndex = int(random.random(len(facts)))
 		await client.send_message(message.channel,message.author.nick + ":   " + tl.fullwidth(facts[factIndex]))
 	
 	elif command.startswith("&help"):
