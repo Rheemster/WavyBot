@@ -1,5 +1,6 @@
 import Translate as tl
 
+import random
 import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
@@ -42,6 +43,13 @@ async def on_message(message):
 	
 	if message.channel.id == "434172182193504268":
 		await client.delete_message(message)
+	
+	elif message.startswith("&brianfact"):
+		script = open("Scripts/BrianFacts.txt", "r")
+		facts = str(scripts.read()).splitlines()
+		script.close()
+		factIndex = int(random(len(facts)))
+		await client.send_message(message.channel,facts[factIndex])
 	
 	elif command.startswith("&help"):
 		script = open("Scripts/Help.txt", "r")
