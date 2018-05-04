@@ -18,7 +18,7 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
 	await client.change_nickname(member, tl.fullwidth(member.display_name))
-	role = discord.utils.get(server.roles, "243126303551782912")
+	role = discord.utils.get(member.server.roles, id="243126303551782912")
 	await client.add_roles(member, role)
 
 #Make all nicknames Ａ Ｅ Ｓ T Ｈ Ｅ T Ｉ Ｃ
@@ -40,7 +40,7 @@ async def on_message(message):
 
 	aestheticMessage = message.content.split("&")
 	
-	if message.channel == "434172182193504268":
+	if message.channel.id == "434172182193504268":
 		await client.delete_message(message)
 	
 	elif command.startswith("&help"):
