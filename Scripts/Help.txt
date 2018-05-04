@@ -1,15 +1,12 @@
 ```diff
-I am this server's custom bot.
+Ｉ　ａｍ　ｔｈｉｓ　ｓｅｒｖｅｒ＇ｓ　ｃｕｓｔｏｍ　ｂｏｔ．
 ```
 ```yaml
-To view my other commands, enter: &functions
+Ｔｏ　ｖｉｅｗ　ｍｙ　ｏｔｈｅｒ　ｃｏｍｍａｎｄｓ，　ｅｎｔｅｒ： &functions
 ```
 ```yaml
-To view the commands of our local Music Man, enter: !help
+Ｔｏ　ｖｉｅｗ　ｔｈｅ　ｃｏｍｍａｎｄｓ　ｏｆ　ｏｕｒ　ｌｏｃａｌ　Ｍｕｓｉｃ　Ｍａｎ，　ｅｎｔｅｒ： !help
 ```
 ```yaml
-To view the commands of our local Funny Man, enter: ]help
-```
-```yaml
-If you would like to learn how to navigate our local Magic Man, follow this link: https://scryfall.com/docs/discord-bot
+Ｉｆ　ｙｏｕ　ｗｏｕｌｄ　ｌｉｋｅ　ｔｏ　ｌｅａｒｎ　ｈｏｗ　ｔｏ　ｎａｖｉｇａｔｅ　ｏｕｒ　ｌｏｃａｌ　Ｍａｇｉｃ　Ｍａｎ，　ｆｏｌｌｏｗ　ｔｈｉｓ　ｌｉｎｋ： https://scryfall.com/docs/discord-bot
 ```
