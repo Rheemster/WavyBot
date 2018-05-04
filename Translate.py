@@ -13,6 +13,6 @@ def brokenTranslate(aestheticMessage):
 			aestheticMessage[i] = fullwidth(aestheticMessage[i])
 		
 	for i in range(len(aestheticMessage)):
-		finalMessage = finalMessage = aestheticMessage[i]
+		finalMessage += aestheticMessage[i]
 	
 	return finalMessage
