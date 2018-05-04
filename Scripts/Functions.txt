@@ -15,3 +15,7 @@
 &...&``````diff
 -You can add & around any part of your message to make only the included words WAVIER!
 ```
+```yaml
+&brianfact``````diff
+－ＧＥＴ　Ａ　ＲＡＮＤＯＭ　ＦＡＣＴ　ＡＢＯＵＴ　ＢＲＩＡＮ！
+```
