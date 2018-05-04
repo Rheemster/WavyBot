@@ -7,32 +7,32 @@ from discord.ext import commands
 import asyncio
 
 client = commands.Bot(command_prefix = "!")
-
-#Variable to prevent loops in changing nicknames
-changed = 0
+changed = False
 
 @client.event
 async def on_ready():
 	print("Bot is ready")
+	
+	vc = discord.utils.find(client.server.channels, id="434172171644960778")
 
 #Update new members' nicknames and roles
 @client.event
 async def on_member_join(member):
 	await client.change_nickname(member, tl.fullwidth(member.display_name))
-	role = discord.utils.get(member.server.roles, id="243126303551782912")
+	defaultRole = discord.utils.find(member.server.roles, id="442109941034123294")
 	await client.add_roles(member, role)
-
+	
 #Make all nicknames Ａ Ｅ Ｓ T Ｈ Ｅ T Ｉ Ｃ
 @client.event
 async def on_member_update(before, after):
 	global changed
 	
 	#Prevent loops in changing nicknames
-	if changed == 0:
+	if !(changed):
 		await client.change_nickname(after, tl.fullwidth(after.nick))
-		changed = 1
+		changed = True
 	else:
-		changed = 0
+		changed = False
 
 @client.event
 async def on_message(message):
