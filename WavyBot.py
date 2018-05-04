@@ -44,7 +44,7 @@ async def on_message(message):
 	if message.channel.id == "434172182193504268":
 		await client.delete_message(message)
 	
-	elif message.startswith("&brianfact"):
+	elif command.startswith("&brianfact"):
 		script = open("Scripts/BrianFacts.txt", "r")
 		facts = str(scripts.read()).splitlines()
 		script.close()
