@@ -4,8 +4,6 @@ import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
-if not discord.opus.is_loaded():
-	discord.opus.load_opus('opus')
 
 client = commands.Bot(command_prefix = "!")
 
@@ -15,7 +13,6 @@ changed = 0
 @client.event
 async def on_ready():
 	print("Bot is ready")
-	voiceChannel = client.get_channel("411703796700413952")
 
 #Update new members' nicknames and roles
 @client.event
