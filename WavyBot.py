@@ -19,7 +19,7 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
 	await client.change_nickname(member, tl.fullwidth(member.display_name))
-	defaultRole = discord.utils.find(member.server.roles, id="442109941034123294")
+	defaultRole = discord.utils.get(member.server.roles, id="442109941034123294")
 	await client.add_roles(member, defaultRole)
 	
 #Make all nicknames Ａ Ｅ Ｓ T Ｈ Ｅ T Ｉ Ｃ
