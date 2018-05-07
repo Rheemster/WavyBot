@@ -6,6 +6,7 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
 from boto.s3.connection import S3Connection
+import os
 
 client = commands.Bot(command_prefix = "!")
 changed = False
