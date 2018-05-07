@@ -5,8 +5,6 @@ import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
-from boto.s3.connection import S3Connection
-import os
 
 client = commands.Bot(command_prefix = "!")
 changed = False
@@ -74,4 +72,4 @@ async def on_message(message):
 		await client.send_message(message.channel, message.author.nick + ":   " + finalMessage)
 		await client.delete_message(message)
 
-client.run(S3Connection(os.environ["BOT_KEY"]))
+client.run("NDEyNzI5OTEzOTEzNjM4OTIy.DWaM2A.kqetT1GJLaUwxcO1QKzJwLE2NFE")
