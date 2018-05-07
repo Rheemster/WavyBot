@@ -73,4 +73,4 @@ async def on_message(message):
 		await client.send_message(message.channel, message.author.nick + ":   " + finalMessage)
 		await client.delete_message(message)
 
-client.run(os.environ["BOT_KEY"])
+client.run(S3Connection(os.environ["BOT_KEY"]))
