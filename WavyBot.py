@@ -2,11 +2,9 @@ import Translate as tl
 
 import random
 import discord
-from discord.ext.commands import Bot
-from discord.ext import commands
 import asyncio
 
-client = commands.Bot(command_prefix = "!")
+client = discord.ext.commands.Bot(command_prefix = "!")
 changed = False
 
 @client.event
