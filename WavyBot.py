@@ -76,4 +76,4 @@ async def on_message(message):
 	elif command.startswith("&mixtapeadd"):
 		mt.add(command[12:])
 
-client.run("NDEyNzI5OTEzOTEzNjM4OTIy.DWaM2A.kqetT1GJLaUwxcO1QKzJwLE2NFE")
+client.run("KEY")
